@@ -106,3 +106,5 @@ Conheça a incrível equipe por trás deste projeto:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 <p>Copyright &reg; 2023 Maykon Pablo Tardoche Barbosa</p>
+
+![snake gif](https://github.com/maykontardoche/maykontardoche/blob/output/github-contribution-grid-snake.svg)

@@ -107,6 +107,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 <p>Copyright &reg; 2023 Maykon Pablo Tardoche Barbosa</p>
 
-![Snake animation](https://github.com/maykontardoche/maykontardoche/blob/output/github-contribution-grid-snake.svg)
 
-[![readme](https://github-readme-stats.vercel.app/api//pin/?username=maykontardoche&repo=your_username&theme=react)](https://github.com/maykontardoche/maykontardoche)

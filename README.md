@@ -99,8 +99,6 @@ Conheça a incrível equipe por trás deste projeto:
     <img src="https://github.com/maykontardoche.png" width="100" height="100" alt="Maykon Tardoche">
   </a>
   <b>
-  <a href="https://github.com/">
-    <img src="https://github.com/Speecterrr.png" width="100" height="100" alt="Nathan Almeida">
   <!-- Adicione mais membros da equipe conforme necessário -->
 </div>
 

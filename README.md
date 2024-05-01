@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://drive.google.com/uc?export+view&id=1Bl5R_AJy5G5pzCTCdyBYWQtYRCQ-iSOa](https://drive.google.com/file/d/19N7fDokZCYq275TpbINRpuyqTH6UqjWZ/view?usp=sharing)" width="45" height="40" alt="Logo do Projeto">
+  <img src="https://drive.google.com/file/d/19N7fDokZCYq275TpbINRpuyqTH6UqjWZ/view?usp=sharing" width="45" height="40" alt="Logo do Projeto">
 </div>
 
 <h1 align="center">

@@ -1,6 +1,8 @@
+<!-- 
 <div align="center">
   <img src="https://drive.google.com/file/d/19N7fDokZCYq275TpbINRpuyqTH6UqjWZ/view?usp=sharing" width="45" height="40" alt="Logo do Projeto">
 </div>
+-->
 
 <h1 align="center">
   <img src="https://drive.google.com/uc?export+view&id=1qj58lToUYSmOkp6MeSuDDHll1CgQ3quS" alt="Título do Projeto" width="150">

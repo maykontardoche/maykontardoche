@@ -5,13 +5,13 @@
 -->
 
 <h1 align="center">
-  <img src="https://drive.google.com/uc?export+view&id=1qj58lToUYSmOkp6MeSuDDHll1CgQ3quS" alt="Título do Projeto" width="150">
+  <!-- <img src="https://drive.google.com/uc?export+view&id=1qj58lToUYSmOkp6MeSuDDHll1CgQ3quS" alt="Título do Projeto" width="150">-->
   <br>
-  <b>Projeto Codando Códigos</b>
+  <b>Projeto Codando</b>
 </h1>
 
 <p align="center">
-  <b>Seja bem-vindo ao Projeto Codando Códigos!</b>
+  <b>Seja bem-vindo ao Projeto Codando Sempre!</b>
 </p>
 
 <p align="center">

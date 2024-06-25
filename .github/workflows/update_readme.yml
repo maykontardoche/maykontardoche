@@ -29,10 +29,14 @@ jobs:
         echo "Node version: $(node -v)"
         echo "NPM version: $(npm -v)"
 
+    - name: Show current README content
+      run: cat README.md
+
     - name: Update GitHub Stats in README
       run: |
         # Baixar o arquivo README.md atualizado
         curl -o README.md https://raw.githubusercontent.com/maykontardoche/maykontardoche/main/README.md
+        echo "Updated README content:"
         cat README.md
 
     - name: Configure Git
@@ -41,8 +45,12 @@ jobs:
         git config --global user.email "maykonpablotardoche@gmail.com"
         git config --global --add safe.directory /github/workspace
 
-    - name: Commit and push changes
+    - name: Check for changes
       run: |
-        git add README.md
-        git commit -m "Atualiza README com novas estatísticas"
-        git push
+        if ! git diff --quiet; then
+          git add README.md
+          git commit -m "Atualiza README com novas estatísticas"
+          git push
+        else
+          echo "No changes to commit"
+        fi

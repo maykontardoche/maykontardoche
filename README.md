@@ -25,8 +25,8 @@
   <a href="#licenca">Licença</a>
 </p>
 
-[![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&cache_seconds=1800)](#)
-![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark&cache_seconds=1800)
+[![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&cache_seconds=30)](#)
+![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark&cache_seconds=30)
 
 
 ## <a name="visao-geral"></a>🌟 Visão Geral

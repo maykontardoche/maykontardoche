@@ -20,16 +20,29 @@ jobs:
       with:
         node-version: '20'
 
+    - name: Install curl
+      run: sudo apt-get update && sudo apt-get install -y curl
+
+    - name: Debug information
+      run: |
+        echo "Running as $(whoami)"
+        echo "Node version: $(node -v)"
+        echo "NPM version: $(npm -v)"
+
     - name: Update GitHub Stats in README
       run: |
-        # Atualizar README.md com GitHub Readme Stats
+        # Baixar o arquivo README.md atualizado
         curl -o README.md https://raw.githubusercontent.com/maykontardoche/maykontardoche/main/README.md
+        cat README.md
 
-        # Configurar Git
+    - name: Configure Git
+      run: |
         git config --global user.name "Maykon Tardoche"
         git config --global user.email "maykonpablotardoche@gmail.com"
+        git config --global --add safe.directory /github/workspace
 
-        # Commit e push das mudanças
+    - name: Commit and push changes
+      run: |
         git add README.md
         git commit -m "Atualiza README com novas estatísticas"
         git push

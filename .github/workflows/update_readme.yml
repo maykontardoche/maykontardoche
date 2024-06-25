@@ -1,0 +1,19 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run GitHub Readme Stats
+      run: |
+        # Este é um exemplo de comando, substitua pelos comandos necessários
+        echo "Executando a atualização do README"

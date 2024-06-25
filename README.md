@@ -3,6 +3,11 @@
   <img src="https://drive.google.com/file/d/19N7fDokZCYq275TpbINRpuyqTH6UqjWZ/view?usp=sharing" width="45" height="40" alt="Logo do Projeto">
 </div>
 -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=ffffff&random=false&width=435&height=40&lines=Ol%C3%A1%2C+eu+sou+Maykon+Tardoche!+%E2%98%95%F0%9F%92%BB%F0%9F%8C%9" alt="Typing SVG">
+  </a>
+</p>
 
 <h1 align="center">
   <!-- <img src="https://drive.google.com/uc?export+view&id=1qj58lToUYSmOkp6MeSuDDHll1CgQ3quS" alt="Título do Projeto" width="150">-->
@@ -25,8 +30,11 @@
   <a href="#licenca">Licença</a>
 </p>
 
-[![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&cache_seconds=30)](#)
-![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark&cache_seconds=30)
+<div align="center">
+  <a href="https://github.com/maykontardoche">
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&layout=compact&langs_count=7&theme=dark"/>
+</div>
 
 ## <a name="visao-geral"></a>🌟 Visão Geral
 

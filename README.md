@@ -24,10 +24,7 @@
   <a href="#equipe">Equipe</a> •
   <a href="#licenca">Licença</a>
 </p>
-<!--
-[![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark)](#)
-![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark)
--->
+
 [![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&cache_seconds=1800)](#)
 ![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark&cache_seconds=1800)
 

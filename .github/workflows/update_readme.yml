@@ -4,16 +4,27 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '*/30 * * * *'
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run GitHub Readme Stats
+    - name: Update GitHub Stats in README
       run: |
-        # Este é um exemplo de comando, substitua pelos comandos necessários
-        echo "Executando a atualização do README"
+        # Atualizar README.md com GitHub Readme Stats
+        curl -o README.md https://raw.githubusercontent.com/maykontardoche/maykontardoche/main/README.md
+
+        # Configurar Git
+        git config --global user.name "Maykon Tardoche"
+        git config --global user.email "maykonpablotardoche@gmail.com"
+
+        # Commit e push das mudanças
+        git add README.md
+        git commit -m "Atualiza README com novas estatísticas"
+        git push

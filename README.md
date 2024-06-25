@@ -85,7 +85,6 @@ Aceitamos contribuições! Se você deseja melhorar este projeto, siga estas eta
 
 Se quiser falar sobre tecnologia, projetos ou apenas dar um oi, aqui estão algumas maneiras de me encontrar:
 
-
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5511990054343)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maykonpablotardoche@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](link-do-seu-instagram)

@@ -28,7 +28,6 @@
 [![Maykon Tardoche GitHub Stats](https://github-readme-stats.vercel.app/api?username=maykontardoche&show_icons=true&theme=dark&cache_seconds=30)](#)
 ![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=maykontardoche&hide_progress=true&theme=dark&cache_seconds=30)
 
-
 ## <a name="visao-geral"></a>🌟 Visão Geral
 
 Este projeto é dedicado ao desenvolvimento de websites e bots para Discord, visando facilitar o dia a dia de todos. Utilizamos uma ampla gama de tecnologias, incluindo Python, JavaScript, HTML, CSS, PHP, Remix, Node.js, Ruby, C++ e C#, para criar soluções eficientes e inovadoras. Nosso objetivo é simplificar e otimizar as tarefas diárias através de ferramentas digitais avançadas e intuitivas.
@@ -109,5 +108,3 @@ Conheça a incrível equipe por trás deste projeto:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 <p>Copyright &reg; 2023 Maykon Pablo Tardoche Barbosa</p>
-
-

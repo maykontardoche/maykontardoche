@@ -10,7 +10,7 @@
 
 ---
 
-**`Desenvolvedora FullStack`**
+**`Desenvolvedor FullStack`**
 
 <p align="center">
   Olá! Eu sou <strong>Maykon Pablo Tardoche Barbosa</strong>, tenho 31 anos, natural de São Paulo. <br>

@@ -2,7 +2,7 @@
   <!-- Substitua pelo seu Typing SVG (ou outro estilo que preferir) -->
   <a href="https://git.io/typing-svg">
     <img 
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=👋+Olá%2C+eu+sou+Maykon+Tardoche!;Seja+Bem-vindo+ao+Meu+GitHub!"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=👩🏻‍💻+Olá%2C+eu+sou+Maykon+Tardoche!;Seja+Bem-vindo+ao+Meu+GitHub!"
       alt="Typing SVG"
     />
   </a>
@@ -10,14 +10,13 @@
 
 ---
 
-## **Desenvolvedor Full Stack**
+**`Desenvolvedor FullStack`**
 
 <p align="center">
-  Olá! Eu sou <strong>Maykon Pablo Tardoche Barbosa</strong>, tenho 31 anos e sou natural de São Paulo. <br>
-  Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na FIAP e me dedico ao estudo de novas tecnologias e metodologias ágeis.<br><br>
-  Sou apaixonado por inovação, programação e desenvolvimento de soluções que simplificam a vida das pessoas. Também atuo na <strong>criação de bots para Discord</strong>, tendo até mesmo <a href="https://discord.gg/t7sY6YHa2B">uma loja de Bots</a> para atender às necessidades de diferentes comunidades.<br><br>
-  Neste repositório, você encontrará projetos que refletem meu interesse em <strong>tecnologias Full Stack</strong>, englobando tanto o front-end quanto o back-end. <br>
-  Fique à vontade para explorar meus repositórios, e se tiver interesse em colaborar ou conhecer melhor meu trabalho, entre em contato!
+  Olá! Eu sou <strong>Maykon Pablo Tardoche Barbosa</strong>, tenho 31 anos, natural de São Paulo. <br>
+  Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na FIAP. <br>
+  Sou apaixonado por tecnologia, inovação e desenvolvimento de bots (tenho até mesmo <a href="https://discord.gg/t7sY6YHa2B">uma loja de Bots no Discord</a>). <br>
+  Seja bem-vindo(a) ao meu perfil!
 </p>
 
 ---
@@ -44,6 +43,7 @@
 
 ## 🛠️ Tecnologias & Ferramentas
 
+<!-- Ajuste o tamanho das imagens conforme preferência -->
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
@@ -93,9 +93,11 @@
 ---
 
 <!-- Se quiser, pode adicionar troféus (GitHub Trophies) -->
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=maykontardoche&theme=onedark&row=2&column=4&margin-w=20&margin-h=20" alt="Trophies"/>
 </p>
+
 
 ---
 
@@ -128,6 +130,7 @@
   </a>
 </p>
 
+<!-- Caso queira, inclua um contador de visitas -->
 <p align="center">
   <img 
     src="https://komarev.com/ghpvc/?username=maykontardoche&style=flat-square&color=blue" 

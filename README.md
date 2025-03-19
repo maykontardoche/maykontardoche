@@ -85,7 +85,7 @@
 </p>
 <p align="center">
   <a href="https://discord.gg/infinityappoficial-1209978061403979856">
-    <img height=200 src="https://lanyard.cnrad.dev/api/1001154526100869152" />
+    <img height=200 src="https://lanyard.cnrad.dev/api/1001154526100869152?bg=332a3f&idleMessage=Transformando%20caf%C3%A9%20em%20c%C3%B3digo%20desde%20sempre.&theme=dark&showDisplayName=true" />
   </a>
 </p>
 ---

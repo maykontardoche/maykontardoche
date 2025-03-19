@@ -85,7 +85,7 @@
 </p>
 <p align="center">
   <a href="https://discord.gg/infinityappoficial-1209978061403979856">
-    <img height=200 src="https://lanyard.cnrad.dev/api/690320444749906139" />
+    <img height=200 src="https://lanyard.cnrad.dev/api/1001154526100869152" />
   </a>
 </p>
 ---

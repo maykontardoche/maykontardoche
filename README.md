@@ -1,12 +1,8 @@
 <p align="center">
   <!-- Substitua pelo seu Typing SVG (ou outro estilo que preferir) -->
-  <a href="https://git.io/typing-svg">
-    <img 
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=45&lines=👩🏻‍💻+Olá%2C+eu+sou+Maykon+Tardoche!;Seja+Bem-vindo+ao+Meu+GitHub!"
-      alt="Typing SVG"
-    />
-  </a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Seja+Bem+vindo+ao+Meu+GitHub!" alt="Typing SVG" /></a>
 </p>
+
 
 ---
 

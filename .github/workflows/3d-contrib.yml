@@ -1,0 +1,30 @@
+name: Generate 3D Contribution Calendar
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:        
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Gerar calendário 3D
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit e push dos SVGs gerados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "chore: atualiza calendário 3D de contribuições" || echo "nada para commitar"
+          git push

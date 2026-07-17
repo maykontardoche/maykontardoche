@@ -77,9 +77,10 @@ int main() {
 
 ### 🎯 O Que Me Move
 
-- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** na FIAP
-- 🤖 Dono de uma **Bot Store** — automação no Discord é o meu playground
+- 🎓 Formação **Análise e Desenvolvimento de Sistemas** na FIAP
+- 🤖 Dono de uma **Infinity Applications** — automação no Discord é o meu playground
 - ⚡ Apaixonado por **performance**: do JavaScript ao metal com **C/C++**
+- ⚡ Desenvolvedor Modded DayZ, contruindo sistemas personalizados
 - 🌐 **FullStack de verdade**: front, back, banco de dados e deploy
 - 💡 Lema: *"Coding the future, one commit at a time"* ✨
 
@@ -92,8 +93,8 @@ int main() {
   ███╗   ███╗ ████████╗                 ────────────────────────────────────
   ████╗ ████║ ╚══██╔══╝                 OS.........: Windows 11 + Linux
   ██╔████╔██║    ██║                    Host.......: São Paulo, Brasil
-  ██║╚██╔╝██║    ██║                    Kernel.....: Café Expresso v32 LTS
-  ██║ ╚═╝ ██║    ██║                    Uptime.....: 32 anos, zero reboots
+  ██║╚██╔╝██║    ██║                    Kernel.....: Café Expresso v33 LTS
+  ██║ ╚═╝ ██║    ██║                    Uptime.....: 33 anos, zero reboots
   ╚═╝     ╚═╝    ╚═╝                    Shell......: bash + discord.js
                                         IDE........: VS Code
   ~$ sudo apt install sucesso           Curso......: ADS — FIAP
@@ -166,15 +167,6 @@ int main() {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maykontardoche/maykontardoche/output/github-contribution-grid-snake.svg">
   <img alt="Snake animation devorando contribuições" src="https://raw.githubusercontent.com/maykontardoche/maykontardoche/output/github-contribution-grid-snake-dark.svg">
 </picture>
-
-<!--
-🎲 UPGRADE OPCIONAL — CALENDÁRIO 3D DE CONTRIBUIÇÕES (nível final boss):
-1) Suba o arquivo .github/workflows/3d-contrib.yml junto com este README
-2) No GitHub, vá em Actions → "Generate 3D Contribution Calendar" → Run workflow
-3) Quando terminar, apague as marcações de comentário em volta da linha abaixo:
-
-<img width="100%" src="profile-3d-contrib/profile-night-rainbow.svg" alt="Calendário 3D de contribuições"/>
--->
 
 <img width="100%" src="assets/divider.svg" alt=""/>
 
@@ -262,11 +254,11 @@ Monitoramento inteligente em Python — os olhos que nunca dormem sobre o sistem
 <tr>
 <td colspan="2" align="center">
 <br/>
-<b>🤖 BOT STORE — MINHA LOJA DE BOTS PARA DISCORD</b>
+<b>🤖 YSH Modded DayZ — MINHA LOJA DE MODS PARA DAYZ</b>
 <br/><br/>
-Bots sob medida que vendem, atendem e automatizam servidores enquanto você dorme.
+Mods sob medida que personaliza e tras inovação para o seu servidor, tudo otimizado e feito com a qualidade que voce merece.
 <br/><br/>
-<a href="https://discord.gg/t7sY6YHa2B"><img src="https://img.shields.io/badge/%F0%9F%A4%96_Entrar_na_Bot_Store-FF6B35?style=for-the-badge&logo=discord&logoColor=white" alt="Bot Store"/></a>
+<a href="https://yshmoddedsystem.maykontardochedev.com/"><img src="https://img.shields.io/badge/%F0%9F%A4%96_Entrar_na_YSH_Modded-FF6B35?style=for-the-badge&logo=discord&logoColor=white" alt="YSH Modded DayZ"/></a>
 <br/><br/>
 </td>
 </tr>

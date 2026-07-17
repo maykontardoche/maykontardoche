@@ -45,18 +45,18 @@
 class MaykonTardoche {
 private:
     const std::string nome     = "Maykon Pablo Tardoche Barbosa";
-    const int         idade    = 32;
+    const int         idade    = 33;
     const std::string local    = "São Paulo, Brasil 🇧🇷";
     const std::string formacao = "Análise e Desenvolvimento "
                                  "de Sistemas — FIAP";
 public:
     std::vector<std::string> paixoes() {
         return { "Tecnologia", "Inovação",
-                 "Bot Development", "Alta Performance" };
+                 "Bot Development", "Alta Performance", "Modded DayZ" };
     }
 
     std::string focoAtual() {
-        return "FullStack — do baixo nível (C/C++) à nuvem";
+        return "FullStack — do baixo nível à nuvem";
     }
 
     bool aceitandoNovosProjetos() { return true; }
@@ -85,7 +85,7 @@ int main() {
 
 <br/>
 
-<div align="center">
+<div align="left">
 
 ```
                                         maykon@tardoche

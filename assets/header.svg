@@ -1,0 +1,103 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#131a2b"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d9ff">
+        <animate attributeName="stop-color" values="#00d9ff;#bd93f9;#00d9ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#bd93f9">
+        <animate attributeName="stop-color" values="#bd93f9;#00d9ff;#bd93f9" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1000" height="300" fill="url(#bgGrad)"/>
+
+  <!-- grade cyberpunk -->
+  <g stroke="#1c2431" stroke-width="1">
+    <path d="M0 50H1000 M0 100H1000 M0 150H1000 M0 200H1000 M0 250H1000"/>
+    <path d="M100 0V300 M200 0V300 M300 0V300 M400 0V300 M500 0V300 M600 0V300 M700 0V300 M800 0V300 M900 0V300"/>
+  </g>
+
+  <!-- linha de scanner -->
+  <rect x="0" y="0" width="1000" height="2" fill="#00d9ff" opacity="0.25">
+    <animate attributeName="y" values="0;298;0" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- particulas subindo -->
+  <g>
+    <circle cx="110" cy="260" r="2.5" fill="#00d9ff">
+      <animate attributeName="cy" values="290;30" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="260" r="2" fill="#bd93f9">
+      <animate attributeName="cy" values="290;30" dur="9s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="260" r="2.5" fill="#bd93f9">
+      <animate attributeName="cy" values="290;30" dur="8s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="260" r="2" fill="#00d9ff">
+      <animate attributeName="cy" values="290;30" dur="6.5s" begin="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="6.5s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="530" cy="260" r="1.8" fill="#00d9ff">
+      <animate attributeName="cy" values="290;30" dur="10s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="10s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- snippets de codigo flutuantes -->
+  <g font-family="'Courier New', monospace" font-size="13" fill="#3a4556">
+    <text x="60" y="78">while(true) { evolve(); }</text>
+    <text x="756" y="70">#include &lt;future&gt;</text>
+    <text x="70" y="243">git push origin vida</text>
+    <text x="800" y="250">sudo make dreams</text>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- cantoneiras neon -->
+  <g stroke="url(#neonGrad)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M28 62V34a6 6 0 0 1 6-6h28"/>
+    <path d="M972 62V34a6 6 0 0 0-6-6h-28"/>
+    <path d="M28 238v28a6 6 0 0 0 6 6h28"/>
+    <path d="M972 238v28a6 6 0 0 1-6 6h-28"/>
+  </g>
+
+  <!-- titulo -->
+  <text x="500" y="150" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="6" fill="url(#neonGrad)" filter="url(#glow)">MAYKON TARDOCHE</text>
+
+  <!-- sublinhado pulsante -->
+  <rect x="330" y="168" width="340" height="3" rx="1.5" fill="url(#neonGrad)">
+    <animate attributeName="x" values="330;312;330" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="340;376;340" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtitulo -->
+  <text x="500" y="206" text-anchor="middle" font-family="'Courier New', monospace" font-size="19" fill="#9aa7b8">&lt;/&gt; FullStack Developer • Bot Architect • C/C++ Enthusiast</text>
+
+  <!-- terminal inferior esquerdo -->
+  <text x="40" y="285" font-family="'Courier New', monospace" font-size="14" fill="#00d9ff">~$ ./maykon --mode=lendario</text>
+  <rect x="272" y="272" width="9" height="16" fill="#00d9ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- status online -->
+  <circle cx="905" cy="280" r="5" fill="#2ea44f">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="960" y="285" text-anchor="end" font-family="'Courier New', monospace" font-size="14" fill="#2ea44f">ONLINE</text>
+</svg>

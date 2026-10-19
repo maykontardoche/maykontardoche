@@ -1,0 +1,54 @@
+# Regera os insights (assets/stats.svg, evolution.svg, rhythm.svg) todo dia com números que INCLUEM repositórios privados.
+#
+# O GITHUB_TOKEN padrão do Actions não enxerga seus outros repositórios privados,
+# então este workflow precisa de um token pessoal:
+#   1. github.com/settings/personal-access-tokens → Fine-grained token
+#      Repository access: All repositories · Permissions: Contents (read-only) + Metadata (read-only)
+#   2. Neste repositório: Settings → Secrets and variables → Actions → New secret
+#      Nome: METRICS_TOKEN
+# Sem o secret, o workflow apenas avisa e não altera nada.
+
+name: Atualizar insights
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Gerar insights
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Secret METRICS_TOKEN não configurado; estatísticas não atualizadas."
+            exit 0
+          fi
+          node scripts/build-insights.mjs
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/evolution.svg assets/rhythm.svg
+          git diff --cached --quiet && { echo "sem mudanças"; exit 0; }
+          git commit -m "chore: atualiza insights do perfil"
+          git pull --rebase
+          git push

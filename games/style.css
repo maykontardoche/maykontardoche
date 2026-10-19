@@ -1,0 +1,43 @@
+/* Estilos compartilhados dos mini-games do perfil. */
+:root {
+  --bg: #05070b; --ink: #f0f6fc; --muted: #8b949e; --cyan: #00d9ff; --violet: #bd93f9;
+  --red: #ff5f57; --line: #1f2630;
+  --mono: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace;
+  --sans: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); overflow: hidden;
+  font-family: var(--sans); -webkit-user-select: none; user-select: none; touch-action: none; }
+canvas { display: block; }
+
+.hud { position: fixed; inset: 16px 16px auto 16px; display: flex; justify-content: space-between;
+  gap: 12px; font-family: var(--mono); pointer-events: none; }
+.hud .group { display: flex; gap: 10px; }
+.chip { background: rgb(10 14 20 / .72); border: 1px solid var(--line); border-radius: 10px;
+  padding: 8px 12px; backdrop-filter: blur(6px); }
+.chip small { display: block; font-size: 10px; letter-spacing: 1.6px; color: var(--cyan); }
+.chip b { font-size: 20px; font-variant-numeric: tabular-nums; }
+
+.screen { position: fixed; inset: 0; display: grid; place-items: center; padding: 16px;
+  background: radial-gradient(ellipse at 50% 30%, rgb(0 217 255 / .10), transparent 60%), rgb(5 7 11 / .55); }
+.screen[hidden] { display: none; }
+.panel { max-width: 520px; width: 100%; text-align: center; }
+.kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 2.4px; color: #3fb950; }
+h1 { margin: 10px 0 6px; font-size: clamp(44px, 11vw, 84px); line-height: .95; letter-spacing: -3px;
+  font-weight: 800; background: linear-gradient(90deg, var(--cyan), var(--violet)); -webkit-background-clip: text;
+  background-clip: text; color: transparent; }
+h1.fail { background: linear-gradient(90deg, var(--red), #ffb86c); -webkit-background-clip: text; background-clip: text; }
+p { color: var(--muted); font-size: 16px; line-height: 1.5; margin: 0 0 22px; }
+.keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin: 0 0 26px;
+  font-family: var(--mono); font-size: 13px; color: #c9d1d9; }
+kbd { display: inline-block; min-width: 26px; padding: 3px 7px; margin-right: 6px; border: 1px solid #30363d;
+  border-bottom-width: 3px; border-radius: 6px; background: #0d1117; font-family: var(--mono); font-size: 12px; }
+button { font: 700 15px var(--mono); letter-spacing: 1.5px; color: #05070b; background: var(--cyan);
+  border: 0; border-radius: 12px; padding: 14px 28px; cursor: pointer; box-shadow: 0 0 32px rgb(0 217 255 / .45); }
+button:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+.result { display: flex; justify-content: center; gap: 10px; margin: 0 0 24px; font-family: var(--mono); }
+.back { position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); font: 12px var(--mono);
+  color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--cyan); }
+.touch-only { display: none; }
+@media (pointer: coarse) { .touch-only { display: inline; } .desk-only { display: none; } }

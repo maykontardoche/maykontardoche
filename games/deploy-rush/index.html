@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Deploy Rush — Maykon Tardoche</title>
+  <meta name="description" content="Runner 3D em Three.js: leve o deploy até produção, colete commits e desvie de bugs.">
+  <link rel="stylesheet" href="../style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div class="hud" aria-live="off">
+    <div class="group">
+      <div class="chip"><small>SCORE</small><b id="score">0</b></div>
+      <div class="chip"><small>COMMITS</small><b id="commits">0</b></div>
+    </div>
+    <div class="chip"><small>RECORDE</small><b id="best">0</b></div>
+  </div>
+
+  <section class="screen" id="start">
+    <div class="panel">
+      <div class="kicker">● MAYKON TARDOCHE · MINI-GAME</div>
+      <h1>DEPLOY<br>RUSH</h1>
+      <p>Leve o deploy até produção. Colete commits, desvie de bugs, pule os firewalls e fuja dos merge conflicts.</p>
+      <div class="keys">
+        <span class="desk-only"><kbd>←</kbd><kbd>→</kbd>trocar de faixa</span>
+        <span class="desk-only"><kbd>espaço</kbd>pular</span>
+        <span class="touch-only">deslize ← → para trocar de faixa</span>
+        <span class="touch-only">toque para pular</span>
+      </div>
+      <button id="play" type="button">▶ JOGAR</button>
+    </div>
+  </section>
+
+  <section class="screen" id="over" hidden>
+    <div class="panel">
+      <div class="kicker" style="color:var(--red)">● PIPELINE INTERROMPIDO</div>
+      <h1 class="fail">BUILD<br>FAILED</h1>
+      <div class="result">
+        <div class="chip"><small>SCORE</small><b id="final-score">0</b></div>
+        <div class="chip"><small>COMMITS</small><b id="final-commits">0</b></div>
+        <div class="chip"><small>RECORDE</small><b id="final-best">0</b></div>
+      </div>
+      <p id="verdict"></p>
+      <button id="again" type="button">↻ NOVO DEPLOY</button>
+    </div>
+  </section>
+
+  <a class="back" href="../">← todos os jogos · github.com/maykontardoche</a>
+
+  <noscript><p style="position:fixed;inset:auto 0 50% 0;text-align:center">Ative o JavaScript para jogar.</p></noscript>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="360" viewBox="0 0 580 360" role="img" aria-label="Deploy Rush: runner 3D em Three.js. Clique para jogar.">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect width="580" height="360" rx="14"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05070b"/><stop offset="1" stop-color="#170b28"/></linearGradient>
+    <linearGradient id="sunfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd166"/><stop offset=".55" stop-color="#ff5fa2"/><stop offset="1" stop-color="#8f5cff"/></linearGradient>
+    <mask id="stripes">
+      <rect x="300" y="60" width="200" height="140" fill="#fff"/>
+      <rect x="300" y="166" width="200" height="3" fill="#000"/><rect x="300" y="175" width="200" height="4" fill="#000"/>
+      <rect x="300" y="185" width="200" height="5" fill="#000"/><rect x="300" y="196" width="200" height="6" fill="#000"/>
+    </mask>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05070b" stop-opacity=".95"/><stop offset=".4" stop-color="#05070b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#05070b" stop-opacity=".92"/><stop offset=".5" stop-color="#05070b" stop-opacity=".55"/><stop offset=".72" stop-color="#05070b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="#00d9ff"/><stop offset="1" stop-color="#bd93f9"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#00d9ff" stop-opacity=".5"/><stop offset="1" stop-color="#00d9ff" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="580" height="360" fill="url(#sky)"/>
+    <g fill="#c9d1d9" opacity=".7"><circle cx="330" cy="30" r="1"/><circle cx="430" cy="52" r="1.2"/><circle cx="520" cy="26" r="1"/><circle cx="560" cy="90" r="1"/><circle cx="250" cy="60" r="1"/></g>
+    <circle cx="400" cy="150" r="74" fill="url(#sunfill)" mask="url(#stripes)"/>
+    <g fill="#0b0f1a" stroke-width="1.3">
+      <rect x="250" y="130" width="24" height="76" stroke="#bd93f9"/><rect x="278" y="152" width="18" height="54" stroke="#00d9ff"/>
+      <rect x="490" y="120" width="26" height="86" stroke="#bd93f9"/><rect x="520" y="146" width="20" height="60" stroke="#00d9ff"/><rect x="544" y="110" width="30" height="96" stroke="#bd93f9"/>
+    </g>
+    <rect y="206" width="580" height="154" fill="#070a12"/>
+    <g stroke="#00d9ff" stroke-opacity=".55" stroke-width="1.3">
+      <path d="M400 206L-500 360M400 206L-200 360M400 206L100 360M400 206L700 360M400 206L1000 360M400 206L1300 360"/>
+    </g>
+    <g stroke="#bd93f9" stroke-opacity=".8" stroke-width="2"><path d="M400 206L280 360M400 206L520 360"/></g>
+    <g stroke="#00d9ff" stroke-width="1.3" stroke-opacity=".5">
+      <line x1="0" x2="580" y1="215" y2="215"><animate attributeName="y1" values="208;360" dur="1.4s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/><animate attributeName="y2" values="208;360" dur="1.4s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/></line>
+      <line x1="0" x2="580" y1="240" y2="240"><animate attributeName="y1" values="208;360" dur="1.4s" begin="-.35s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/><animate attributeName="y2" values="208;360" dur="1.4s" begin="-.35s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/></line>
+      <line x1="0" x2="580" y1="275" y2="275"><animate attributeName="y1" values="208;360" dur="1.4s" begin="-.7s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/><animate attributeName="y2" values="208;360" dur="1.4s" begin="-.7s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/></line>
+      <line x1="0" x2="580" y1="330" y2="330"><animate attributeName="y1" values="208;360" dur="1.4s" begin="-1.05s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/><animate attributeName="y2" values="208;360" dur="1.4s" begin="-1.05s" repeatCount="indefinite" calcMode="spline" keySplines=".7 0 1 1" keyTimes="0;1"/></line>
+    </g>
+    <rect y="206" width="580" height="154" fill="url(#fade)"/>
+
+    <rect x="440" y="250" width="16" height="16" rx="2" fill="#00d9ff">
+      <animate attributeName="x" values="412;446;482" keyTimes="0;.6;1" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="210;250;300" keyTimes="0;.6;1" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="4;16;30" keyTimes="0;.6;1" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="height" values="4;16;30" keyTimes="0;.6;1" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M352 250l11 13-11 13-11-13z" fill="#ff3b5c">
+      <animateTransform attributeName="transform" type="translate" values="30 -38;0 0;-34 48" keyTimes="0;.6;1" dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.9;1" dur="2.9s" repeatCount="indefinite"/>
+    </path>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0;5 0;0 0" dur="3s" repeatCount="indefinite"/>
+      <ellipse cx="400" cy="346" rx="80" ry="14" fill="url(#glow)"/>
+      <rect x="361" y="280" width="78" height="25" rx="5" fill="#0a1a2a" stroke="#1f3a52"/>
+      <rect x="342" y="300" width="116" height="38" rx="7" fill="#111827"/>
+      <rect x="337" y="297" width="126" height="6" rx="2" fill="#111827"/>
+      <rect x="356" y="314" width="88" height="7" rx="2" fill="#ff3b5c"/>
+      <rect x="342" y="329" width="116" height="3" fill="#00d9ff"/>
+      <rect x="344" y="333" width="18" height="17" rx="3" fill="#050505"/><rect x="438" y="333" width="18" height="17" rx="3" fill="#050505"/>
+    </g>
+
+    <rect width="580" height="360" fill="url(#shade)"/>
+    <circle cx="34" cy="40" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="46" y="44" class="mono" font-size="11.5" font-weight="600" letter-spacing="1.8" fill="#3fb950">JOGO 01 · RUNNER 3D</text>
+    <text x="28" y="104" class="sans" font-size="50" font-weight="800" letter-spacing="-2" fill="url(#ink)">DEPLOY</text>
+    <text x="28" y="152" class="sans" font-size="50" font-weight="800" letter-spacing="-2" fill="url(#ink)">RUSH</text>
+    <text x="30" y="184" class="sans" font-size="14.5" fill="#8b949e">Colete commits, desvie de bugs</text>
+    <text x="30" y="203" class="sans" font-size="14.5" fill="#8b949e">e pule os firewalls.</text>
+    <rect x="30" y="292" width="150" height="40" rx="10" fill="#00d9ff"><animate attributeName="fill-opacity" values="1;.8;1" dur="1.8s" repeatCount="indefinite"/></rect>
+    <text x="105" y="317" text-anchor="middle" class="mono" font-size="13.5" font-weight="700" letter-spacing="1.4" fill="#05070b">▶ JOGAR</text>
+  </g>
+  <rect x=".5" y=".5" width="579" height="359" rx="14" fill="none" stroke="#1f2630"/>
+</svg>

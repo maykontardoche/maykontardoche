@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="310" viewBox="0 0 580 310" role="img" aria-label="CustomTerminal: O terminal do Windows do jeito que deveria ser, instalado com um clique.">
+  <style>
+    .kicker { font: 600 11.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 1.8px; fill: #7aa2f7; }
+    .pill { font: 600 10.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 1.2px; fill: #7aa2f7; }
+    .title { font: 700 30px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; letter-spacing: -.6px; fill: #f0f6fc; }
+    .tag { font: 400 15px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .bullet { font: 700 13px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #7aa2f7; }
+    .signal { font: 400 13.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #c9d1d9; }
+    .chip { font: 500 12px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #c9d1d9; }
+    .num { font: 800 120px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; letter-spacing: -6px; fill: #7aa2f7; opacity: .055; }
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#7aa2f7"/><stop offset=".55" stop-color="#7aa2f7" stop-opacity=".15"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity=".13"/><stop offset=".6" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="580" height="310" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="580" height="310" fill="#0a0e14"/>
+    <rect width="580" height="310" fill="url(#glow)"/>
+    <text x="562" y="294" text-anchor="end" class="num">07</text>
+    <rect width="580" height="3" fill="url(#edge)"/>
+    <rect x="-120" width="120" height="3" fill="url(#shine)" opacity=".5">
+      <animate attributeName="x" values="-120;580" dur="3.2s" begin="2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x=".5" y=".5" width="579" height="309" rx="14" fill="none" stroke="#1f2630"/>
+
+  <circle cx="34" cy="40" r="4" fill="#7aa2f7"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="46" y="44" class="kicker">DEV TOOLING · OPEN SOURCE</text>
+  <rect x="472" y="27" width="78" height="24" rx="12" fill="#7aa2f7" fill-opacity=".1" stroke="#7aa2f7" stroke-opacity=".45"/>
+  <text x="511" y="43" text-anchor="middle" class="pill">PÚBLICO</text>
+
+  <text x="30" y="92" class="title">CustomTerminal</text>
+  <text x="30" y="120" class="tag">O terminal do Windows do jeito que deveria ser,</text>
+  <text x="30" y="141" class="tag">instalado com um clique.</text>
+
+  <line x1="30" y1="158" x2="550" y2="158" stroke="#1f2630"/>
+  <g>
+    <text x="30" y="184" class="bullet">▸</text>
+    <text x="48" y="184" class="signal">Instalador gráfico que resolve dependências sozinho</text>
+  </g>
+  <g>
+    <text x="30" y="208" class="bullet">▸</text>
+    <text x="48" y="208" class="signal">Faz backup de tudo que altera antes de mexer</text>
+  </g>
+  <g>
+    <text x="30" y="232" class="bullet">▸</text>
+    <text x="48" y="232" class="signal">4 modos: GUI, irm | iex, CLI com presets, manual</text>
+  </g>
+
+  <rect x="30" y="258" width="110" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="85" y="275.5" text-anchor="middle" class="chip">PowerShell 7</text>
+  <rect x="148" y="258" width="139" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="217.5" y="275.5" text-anchor="middle" class="chip">Windows Terminal</text>
+  <rect x="295" y="258" width="66" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="328" y="275.5" text-anchor="middle" class="chip">Neovim</text>
+  <rect x="369" y="258" width="59" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="398.5" y="275.5" text-anchor="middle" class="chip">Scoop</text>
+</svg>

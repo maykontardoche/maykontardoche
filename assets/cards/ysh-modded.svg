@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="310" viewBox="0 0 580 310" role="img" aria-label="YSH Modded System: Ecossistema de 19 mods para servidores DayZ, com loja e licenciamento próprios.">
+  <style>
+    .kicker { font: 600 11.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 1.8px; fill: #f0b429; }
+    .pill { font: 600 10.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 1.2px; fill: #f0b429; }
+    .title { font: 700 30px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; letter-spacing: -.6px; fill: #f0f6fc; }
+    .tag { font: 400 15px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .bullet { font: 700 13px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #f0b429; }
+    .signal { font: 400 13.5px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #c9d1d9; }
+    .chip { font: 500 12px ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace; fill: #c9d1d9; }
+    .num { font: 800 120px ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; letter-spacing: -6px; fill: #f0b429; opacity: .055; }
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0b429"/><stop offset=".55" stop-color="#f0b429" stop-opacity=".15"/><stop offset="1" stop-color="#f0b429" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#f0b429" stop-opacity=".13"/><stop offset=".6" stop-color="#f0b429" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="580" height="310" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="580" height="310" fill="#0a0e14"/>
+    <rect width="580" height="310" fill="url(#glow)"/>
+    <text x="562" y="294" text-anchor="end" class="num">04</text>
+    <rect width="580" height="3" fill="url(#edge)"/>
+    <rect x="-120" width="120" height="3" fill="url(#shine)" opacity=".5">
+      <animate attributeName="x" values="-120;580" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x=".5" y=".5" width="579" height="309" rx="14" fill="none" stroke="#1f2630"/>
+
+  <circle cx="34" cy="40" r="4" fill="#f0b429"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="46" y="44" class="kicker">GAME DEV · ENFORCE SCRIPT</text>
+  <rect x="443" y="27" width="107" height="24" rx="12" fill="#f0b429" fill-opacity=".1" stroke="#f0b429" stroke-opacity=".45"/>
+  <text x="496.5" y="43" text-anchor="middle" class="pill">EM PRODUÇÃO</text>
+
+  <text x="30" y="92" class="title">YSH Modded System</text>
+  <text x="30" y="120" class="tag">Ecossistema de 19 mods para servidores DayZ,</text>
+  <text x="30" y="141" class="tag">com loja e licenciamento próprios.</text>
+
+  <line x1="30" y1="158" x2="550" y2="158" stroke="#1f2630"/>
+  <g>
+    <text x="30" y="184" class="bullet">▸</text>
+    <text x="48" y="184" class="signal">Anti-cheat: detectores, tracking e alerta no Discord</text>
+  </g>
+  <g>
+    <text x="30" y="208" class="bullet">▸</text>
+    <text x="48" y="208" class="signal">KOTH, AirDrop, TradeStore, Stash, SpawnSelect, VIP</text>
+  </g>
+  <g>
+    <text x="30" y="232" class="bullet">▸</text>
+    <text x="48" y="232" class="signal">Plataforma Laravel de vendas e licenças</text>
+  </g>
+
+  <rect x="30" y="258" width="124" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="92" y="275.5" text-anchor="middle" class="chip">Enforce Script</text>
+  <rect x="162" y="258" width="51" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="187.5" y="275.5" text-anchor="middle" class="chip">DayZ</text>
+  <rect x="221" y="258" width="73" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="257.5" y="275.5" text-anchor="middle" class="chip">Laravel</text>
+  <rect x="302" y="258" width="80" height="26" rx="13" fill="#161b22" stroke="#262c36"/>
+  <text x="342" y="275.5" text-anchor="middle" class="chip">Webhooks</text>
+</svg>

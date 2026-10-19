@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mini-games — Maykon Tardoche</title>
+  <meta name="description" content="Dois mini-games 3D feitos com Three.js: Deploy Rush e Commit Stack.">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    html, body { overflow: auto; touch-action: auto; }
+    main { max-width: 1240px; margin: 0 auto; padding: 56px 16px 72px; }
+    header { text-align: center; margin-bottom: 36px; }
+    header h1 { font-size: clamp(40px, 8vw, 68px); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 20px; }
+    .game { display: block; border-radius: 16px; overflow: hidden; outline-offset: 4px; transition: transform .2s ease, box-shadow .2s ease; }
+    .game img { display: block; width: 100%; height: auto; }
+    .game:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgb(0 217 255 / .18); }
+    .game:focus-visible { outline: 3px solid var(--violet); }
+    footer { margin-top: 32px; text-align: center; font: 13px var(--mono); color: var(--muted); }
+    footer a { color: var(--cyan); text-decoration: none; }
+    @media (prefers-reduced-motion: reduce) { .game { transition: none; } .game:hover { transform: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">● MAYKON TARDOCHE · THREE.JS · WEBGL</div>
+      <h1>MINI-GAMES</h1>
+      <p>Dois jogos 3D feitos do zero, sem engine: só Three.js, física simples e muito neon.</p>
+    </header>
+    <div class="grid">
+      <a class="game" href="./deploy-rush/"><img src="../assets/game-deploy-rush.svg" alt="Deploy Rush: runner 3D. Colete commits, desvie de bugs e pule os firewalls."></a>
+      <a class="game" href="./commit-stack/"><img src="../assets/game-commit-stack.svg" alt="Commit Stack: jogo de blocos em 3D. Empilhe commits e faça merge."></a>
+    </div>
+    <footer>código aberto em <a href="https://github.com/maykontardoche/maykontardoche/tree/main/games">github.com/maykontardoche/maykontardoche</a></footer>
+  </main>
+</body>
+</html>

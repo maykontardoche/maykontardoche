@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Commit Stack — Maykon Tardoche</title>
+  <meta name="description" content="Jogo de blocos em 3D com Three.js: empilhe commits, faça merges e não deixe a pilha estourar.">
+  <link rel="stylesheet" href="../style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div class="hud" aria-live="off">
+    <div class="group">
+      <div class="chip"><small>SCORE</small><b id="score">0</b></div>
+      <div class="chip"><small>MERGES</small><b id="lines">0</b></div>
+      <div class="chip"><small>NÍVEL</small><b id="level">1</b></div>
+    </div>
+    <div class="chip"><small>RECORDE</small><b id="best">0</b></div>
+  </div>
+
+  <section class="screen" id="start">
+    <div class="panel">
+      <div class="kicker">● MAYKON TARDOCHE · MINI-GAME</div>
+      <h1>COMMIT<br>STACK</h1>
+      <p>Empilhe os commits e complete linhas para fazer merge. Se a pilha chegar no topo, é stack overflow.</p>
+      <div class="keys">
+        <span class="desk-only"><kbd>←</kbd><kbd>→</kbd>mover</span>
+        <span class="desk-only"><kbd>↑</kbd>girar</span>
+        <span class="desk-only"><kbd>↓</kbd>descer</span>
+        <span class="desk-only"><kbd>espaço</kbd>soltar</span>
+        <span class="desk-only"><kbd>P</kbd>pausar</span>
+        <span class="touch-only">arraste ← → para mover · toque para girar</span>
+        <span class="touch-only">deslize ↓ para soltar</span>
+      </div>
+      <button id="play" type="button">▶ JOGAR</button>
+    </div>
+  </section>
+
+  <section class="screen" id="paused" hidden>
+    <div class="panel">
+      <div class="kicker">● PAUSADO</div>
+      <h1>BREAK<br>POINT</h1>
+      <p>Pressione <kbd>P</kbd> ou toque para continuar.</p>
+    </div>
+  </section>
+
+  <section class="screen" id="over" hidden>
+    <div class="panel">
+      <div class="kicker" style="color:var(--red)">● EXCEPTION NÃO TRATADA</div>
+      <h1 class="fail">STACK<br>OVERFLOW</h1>
+      <div class="result">
+        <div class="chip"><small>SCORE</small><b id="final-score">0</b></div>
+        <div class="chip"><small>MERGES</small><b id="final-lines">0</b></div>
+        <div class="chip"><small>RECORDE</small><b id="final-best">0</b></div>
+      </div>
+      <p id="verdict"></p>
+      <button id="again" type="button">↻ JOGAR DE NOVO</button>
+    </div>
+  </section>
+
+  <a class="back" href="../">← todos os jogos · github.com/maykontardoche</a>
+
+  <noscript><p style="position:fixed;inset:auto 0 50% 0;text-align:center">Ative o JavaScript para jogar.</p></noscript>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

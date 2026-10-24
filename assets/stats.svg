@@ -15,7 +15,7 @@
   <rect x=".5" y=".5" width="1199" height="239" rx="14" fill="none" stroke="#1f2630"/>
   <circle cx="48" cy="44" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
   <text x="62" y="49" class="title">Números reais, incluindo o que é privado</text>
-  <text x="1160" y="49" text-anchor="end" class="foot">gh api graphql · 2026-10-23</text>
+  <text x="1160" y="49" text-anchor="end" class="foot">gh api graphql · 2026-10-24</text>
   <g>
     <rect x="40" y="78" width="270" height="124" rx="10" fill="#0f141b" stroke="#1f2630"/>
     <text x="62" y="110" class="label">REPOSITÓRIOS</text>
